@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>The Dairy web!</title>
+<link rel="stylesheet" type="text/css" href="home.css">
+</head>
+
+
+<body>
+ <div class="header">
+	<div class="welcome"> 
+		WELCOME TO MY DAIRY<!--头部标题-->
+</div>
+</div>
+<div class="Dh">
+	<ul class="D"><!--导航栏-->
+		<li><a href="#Year">Year</a></li>
+		<li><a href="#Poem">Poem</a></li>
+		<li><a href="#Star">Star</a></li>
+		<li><a href="#Feelings">Feelings</a></li>
+		<li><a href="#Photo">Photo</a></li>
+</ul>
+
+</div>
+<div class="row">
+	<div class="left">
+		<div class="card">
+			<h2>The Sunshine</h2>
+			<h5>2019.5.5</h5>
+			<div class="img">
+				<img src="file:///D:/exercise/HTML/New/165757141794422789.webp" width="500px" height="500px">
+			</div>
+			<p>
+				<span>I&#160;</span>never saw the sunshine while I stood over the ice.
+				I can felt the wind's breathe and saw the dream from
+			far away. I can hear the songs of birds dancing in the sky. I want to escape this world, diving, diving in the sea.</p>
+		</div>
+		<div class="card">
+			<h2>The old treasure</h2>
+			<h5>2019.6.2</h5>
+			<div class="img">
+				<img src="file:///D:/exercise/HTML/New/%E9%85%8D%E5%9B%BE.webp" width="500px" height="500px">
+			</div>
+			<p>
+				<span>T&#160;</span>he buiding is weather-beaten, she just stands, stands for thousands of years. No one knows who had build her, no one know who had kiss her, no one know who talk with her in the rain. Walk, just walk. She have witnessed our lives but none can witness her.
+			</p>
+		</div>
+
+		<div class="card">
+			<h2>A painting</h2>
+			<h5>2019.6.20</h5>
+			<div class="img" style="padding-left: 200px;">
+				<img src="file:///D:/exercise/HTML/New/202820948621131801.webp" width="50%" height="500px">
+			</div>
+			<p>
+				<span>L&#160;</span>ook,one man, one boat. Everyone is born alone. All over the sky black color, we could distinguish anyone'
+				s emotion. Birds just fly over our head. Freedom, what we dying for and they desert. One man, one boat.
+			</p>
+		</div>
+	</div>
+	
+	<div class="right">
+	<div class="card" style="padding:0; height: 220px;">
+		<div class="day">
+	  		1 <font size="4px">Jun</font>
+    	 </div>
+     <p class="write">the day is Friday</p>
+ </div>
+ 	<div class="card" style="padding: 0;height: 220px;">
+ 		<div class="day">
+ 			15<font size="4px">Jun</font>
+ 		</div>
+ 		<p class="write">the day is Wedsday</p>
+ 	</div>
+ 	<div class="card" style="padding: 0;height: 220px;">
+ 		<div class="day">
+ 			3<font size="4px">July</font>
+ 		</div>
+ 		<p class="write">the day is Tursday</p>
+ 	</div>
+</div>
+</div>
+
+</body>
+</html>
