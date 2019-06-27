@@ -1,0 +1,19 @@
+.left{
+	float: left;
+	width:15%;
+	background-color: #629FF1;
+	color: white;
+	height: 900px;
+	text-align: center;
+	margin-right: 20px;
+
+}
+pre{
+font-size: 16px
+}
+td{
+	padding-right: 20px;
+}
+.right{
+	width:75%;
+}
