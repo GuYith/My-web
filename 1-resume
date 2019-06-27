@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<link rel="stylesheet" type="text/css" href="style_1.css">
+	<meta charset="UTF-8">
+	<title>resume</title>
+</head>
+<body>
+	<h1>
+		简历
+	</h1>
+	<h2>
+		基本信息
+	</h2>
+	<table>
+		<tr>
+			<th>姓名</th>
+			<td>张三</td>
+			<th>性别</th>
+			<td>男</td>
+			<th>应聘职位</th>
+			<td>Web前端工程师</td>
+		</tr>
+	</table>
+	<h2>
+		联系方式
+	</h2>
+		<table>
+		<tr>
+			<th>手机</th>
+			<td>12312341234</td>
+			<th>Email</th>
+			<td><a href="https://www.baidu.com/">jionefe@baidu.com</a></td>
+			<th>个人主页</th>
+			<td><a href="https://github.com/">Github</a></td>
+		</tr>
+	</table>
+	<h2>
+		能力描述
+	</h2>
+	<pre>
+技术能力
+熟练掌握HTML,CSS,JavaScript
+	</pre>
+	<pre>
+综合能力
+良好的沟通，主动积极，努力勤奋
+	</pre>
+	<h2>
+		教育经历
+	</h2>
+	<pre>
+<b>本科</b>
+百度前端技术学院小薇学院
+	</pre>
+	<pre>
+<b>研究生</b>
+百度前端技术学院大斌学院
+	</pre>
+	<h2>
+		项目经历
+	</h2>
+	<pre>
+<b>小度小度</b>
+作为前端工程师抉择参与了ABC组件的开发
+	</pre>
+	<pre>
+<b>SAN Doc</b>
+作为文档工程师参与了SAN Doc编写
+	</pre>
+
+</body>
+</html>
