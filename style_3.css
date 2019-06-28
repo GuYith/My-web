@@ -1,0 +1,54 @@
+td{
+	padding-right: 20px;
+}
+.header{
+	overflow: hidden;
+	padding-left: 20px;
+	background-color: #6D6A6A;
+	color: white;
+	font-size: 20px;
+	text-align: left;
+
+}
+.th{
+	height: 100px;
+	background-color: #AAAAAA;
+	text-align: center;
+	padding-top: 60px;
+}
+.td1{
+
+	height: 100px;
+	padding-left: 20px;
+	padding-top: 70px;
+}
+.td2{
+	height: 100px;
+	padding-left: 20px;
+	padding-top: 170px;
+}
+.td3{
+	height: 100px;
+	padding-left: 50px;
+	padding-top: 120px;
+}
+.td4{
+height: 100px;
+	padding-left: 50px;
+	padding-top: 70px;
+}
+
+.left{
+	overflow: hidden;
+	float: left;
+	height: 1500px;
+	width: 15%;
+	margin-bottom: 2px;
+
+}
+.right{
+
+	width: 85%;
+	background-color: white;
+
+}
