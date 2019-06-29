@@ -103,6 +103,7 @@ max-width: 960px;
          flex-flow: row wrap;
 }
 .card{
+	float:left;
 flex: 1;
 border:#DEDCDC solid 0.5px;
 padding: 80px;
