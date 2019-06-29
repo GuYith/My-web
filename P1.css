@@ -33,7 +33,7 @@ width: 100%;
 	color: white;
 }
 .banner{
-
+	
 	background-color: #5ECC3F;
 	height: 200px;
 	width:100%;
@@ -54,7 +54,7 @@ width: 100%;
 	opacity: 0.3;
 	color: #258F0A;
 	border:#258F0A solid 1px;
-
+	
 }
 .bcontain.chosen{
 	padding-top: 20px;
@@ -72,7 +72,7 @@ overflow: hidden;
 
 }
 .menu{
-
+	
 width: 960px;
 padding-left: calc((100% - 960px) / 2);
 border-bottom: #DEDCDC solid 0.5px;
@@ -97,26 +97,18 @@ border-bottom: #DEDCDC solid 0.5px;
 }
 .content
 { 
-overflow: auto;
-width: 960px;
-padding-left: calc((100% - 960px) / 2);
-}
-.row{
-
-	display: -webkit-flex;
-	display: flex;
-
-	width: 100%;
+max-width: 960px;
+ margin: 0 auto;
+display: flex;
+flex-flow: row wrap;
 }
 .card{
-
+flex: 1;
 border:#DEDCDC solid 0.5px;
 padding: 80px;
 text-align: center;
 margin:5px ;
 }
-
-
 
 .bottom{
 	clear: both;
@@ -126,4 +118,4 @@ height: 60px;
 width: 100%;
 font-size: 13px;
 text-align: center;
-} 
+}
