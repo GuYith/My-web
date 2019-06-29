@@ -97,19 +97,14 @@ border-bottom: #DEDCDC solid 0.5px;
 }
 .content
 { 
-overflow: auto;
-width: 960px;
-padding-left: calc((100% - 960px) / 2);
+	max-width: 960px;
+         margin: 0 auto;
+         display: flex;
+         flex-flow: row wrap;
 }
-.row{
 
-	display: -webkit-flex;
-	display: flex;
-	
-	width: 100%;
-}
 .card{
-
+flex:1;
 border:#DEDCDC solid 0.5px;
 padding: 80px;
 text-align: center;
