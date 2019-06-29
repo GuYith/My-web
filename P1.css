@@ -97,14 +97,13 @@ border-bottom: #DEDCDC solid 0.5px;
 }
 .content
 { 
-	max-width: 960px;
+max-width: 960px;
          margin: 0 auto;
          display: flex;
          flex-flow: row wrap;
 }
-
 .card{
-flex:1;
+flex: 1;
 border:#DEDCDC solid 0.5px;
 padding: 80px;
 text-align: center;
