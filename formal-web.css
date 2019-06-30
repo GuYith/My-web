@@ -1,0 +1,508 @@
+body{
+padding: 0;
+margin: 0;
+	display: hidden;
+
+}
+/*第一个界面*/
+.header{
+	overflow: hidden;
+	float: left;
+	padding:0;
+	background-image:url(img/ground.png);
+	width: 100%;
+	height: 990px;
+	color: white;
+	text-align: center;
+}
+/*蒙版*/
+.mb{
+	width: 100%;
+	height:990px;
+	background-color: #000000;
+	opacity:0.6;
+
+}
+.text1{
+position: relative;
+top:-814px;
+font-weight: lighter;
+line-height: 72px;
+font-size: 62px;
+font-family: Montserrat-ExtraLight;
+font-stretch: normal;
+}
+.text2{
+min-width: 300px;
+max-width:766px;
+position: relative;
+top:-700px;
+margin:0 416px;
+font-family: Montserrat-ExtraLight;
+line-height: 32px;
+font-size: 20px;
+font-weight: lighter;
+opacity: 0.7;
+
+}
+
+.hcontain{
+position: relative;
+top:-600px;
+margin:0 auto;
+width: 970px;
+	height: 250px;
+	border-radius: 2px;
+	border: solid 1px #ffffff;
+	opacity: 0.2;
+}
+
+
+.hctext{
+
+	position: relative;
+	top: -800px;
+	opacity: 0.8;
+	font-family: Montserrat-Light;
+	font-size: 16px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 28px;
+	letter-spacing: 2px;
+	color: #ffffff;
+}
+.hctext2{
+	position: relative;
+	top: -800px;
+	margin:0 auto;
+	opacity: 0.4;
+	font-family: Montserrat-Light;
+	font-size: 12px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 2px;
+	color: #FFFFFF;
+}
+.input1{
+	position: relative;
+	top: 150px;
+	left: -100px;
+	width: 250px;
+	height: 40px;
+	color: white;
+	padding-left: 10px;
+	margin-right: 20px;
+	border-radius: 2px;
+	border: solid 1px #ffffff;
+	background: none;
+}
+#password{
+	top: -770px;
+}
+#input1{
+	position: relative;
+	top: -270px;
+	left: 400px;
+	font-size: 14px;
+
+}
+.input2{
+position: relative;
+	top: -745px;
+	left: 250px;
+	width: 80px;
+	height: 40px;
+	background-color: white;
+	border-radius: 5px;
+	border:white;
+	color: black;
+	font-size: 12px;
+	line-height: 22px;
+}
+/*第二个界面*/
+.container{
+
+	height: 710px;
+	width: 100%;
+	overflow: hidden;
+	text-align: center;
+
+}
+.container p{
+	margin:0 auto;
+	margin-top:80px;
+	letter-spacing: 2px;
+}
+.bigp{
+	margin:0 auto;
+	margin-top: 60px;
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 0;
+	font-weight: lighter;
+	width: 697px;
+}
+.cardcontainer{
+	max-width: 970px;
+	margin:0 auto;
+	display: flex;
+	flex-flow: row wrap;
+}
+.card{
+	flex:0 1 auto;
+	margin: 10px;
+	margin-top: 30px;
+	background-color:white;
+	width: 430px;
+	height: 180px;
+	text-align: left;
+}
+
+.ccontainer{
+	width: 300px;
+	margin-left: 60px;
+
+}
+.ctext1{
+	color: #141414;
+	font-size: 20px;
+	line-height: 32px;
+}
+.ctext2{
+	color: #141414;
+	opacity: 0.7;
+	font-size: 16px;
+	line-height: 26px;
+	
+}
+/*第三个界面*/
+
+.header.san{
+	height:800px;
+	background-image: url(img/li.png);
+	overflow: hidden;
+}
+.mb.mb3{
+height: 800px;
+}
+.santcontain{
+	position: relative;
+	top:-600px;
+	left:300px;
+	width: 367px;
+	color: white;
+}
+.santext1{
+	font-weight: lighter;
+	font-size: 42px;
+	line-height: 52px;
+	width: 100%;
+}
+.santext2{
+	margin-top: 20px;
+	width: 100%;
+	font-size: 18px;
+	font-weight: lighter;
+	opacity: 0.7;
+	line-height: 28px;
+
+}
+.button2{
+	position: relative;
+left: -180px;
+top:-550px;
+width: 240px;
+height: 60px;
+opacity: 0.7;
+margin-left: 40px;
+}
+.button3{
+	position: relative;
+left: -170px;
+top:-550px;
+font-weight: normal;
+width: 240px;
+height: 60px;
+}
+.sancontain{
+	top:-1080px;
+	left: 540px;
+	width: 700px;
+	height: 600px;
+	border-radius: 20px;
+}
+.sanimg{
+	position: relative;
+	top: -1655px;
+	right: -520px;
+}
+/*第四个界面*/
+.si{
+	height: 580px;
+}
+.sicard{
+	text-align: center;
+	margin-right: 60px;
+	width: 250px;
+	height: 300px;
+
+}
+.sitext{
+	margin-top: 40px;
+}
+/*第五个界面*/
+.wu{
+	height: 1000px;
+}
+.wucontainbox{
+display: flex;
+flex-flow: row wrap;
+	margin:0 auto;
+	width: 976px;
+	height: 582px;
+}
+.leaf{
+flex:0 1 auto;
+	float: left;
+	margin-top: 114px;
+	margin-bottom: 85px;
+	margin-right: 100px;
+
+
+}
+.bird{
+float: right;
+	flex:0 1 auto;
+}
+.wutextbox{
+
+flex:0 1 auto;
+width: 300px;
+}
+.wutbox1{
+margin-top: 180px;
+}
+.wutbox2
+{margin-top: 50px;
+	margin-right: 100px;
+
+}
+.wutext1{
+	text-align: left;
+	width: 300px;
+}
+.wutext2{
+	text-align: left;
+	width: 320px;
+}
+/*第六个界面*/
+.liu{
+	height: 1084px;
+
+}
+.liutext1{
+	padding-top: 30px;
+	margin:0 auto;
+	width: 700px;
+}
+.liuc{
+	display: flex;
+flex-flow: row wrap;
+padding-top: 50px;
+	margin:0 auto;
+	width: 980px;
+}
+.liuccard{
+	margin-top: 10px;
+    margin-right: 50px;
+	height: 340px;
+	border-radius: 2px;
+	text-align: center;
+}
+
+.liumb{
+	width:470px;
+	height:340px;
+}
+.liutext2{
+	position: relative;
+	top: -240px;
+font-size: 20px;
+line-height: 32px;
+font-family: Montserrat-Light;
+font-weight: lighter;
+	color: #FFFFFF;
+}
+.liutext3{
+	position: relative;
+	top: -225px;
+	margin:0 auto;
+	opacity: 0.4;
+	font-family: Montserrat-Light;
+
+	font-size: 12px;
+	letter-spacing: 1px;
+	color: #FFFFFF;
+}
+.liuimgbox{
+	margin:auto;
+	position: relative;
+	top: -170px;
+	opacity: 0.1;
+	width: 220px;
+	text-align: center;
+
+}
+/*第七个界面*/
+.qi{	
+	
+	height: 700px;
+}
+.qic{
+	margin:0 auto;
+	width: 1000px
+	display: flex;
+}
+.qicontainer{
+
+	flex:0 1 auto;
+	overflow: hidden;
+	width: 480px;
+	height: 570px;
+
+}
+.qip{
+	margin:0 auto;
+	margin-top: 60px;
+	font-size: 42px;
+	line-height: 52px;
+	letter-spacing: 0;
+	font-weight: lighter;
+	margin:0;
+
+	letter-spacing: 0px;
+}
+.qi1{
+	float: left;
+	width: 470px;
+	height: 560px;
+	border-radius: 10px;
+	border: solid 1px #141414;
+	opacity: 0.1;
+}
+
+.qi1text1{
+	position: relative;
+	top: -520px;
+	font-family: Montserrat-Light;
+	font-size: 16px;
+	line-height: 32px;
+	letter-spacing: 2px;
+	color: #141414;
+
+}
+.qiinput{
+	position: relative;
+	top:-520px;
+	margin:20px;
+	width: 370px;
+	height: 50px;
+	border-radius: 2px;
+	border: solid 1px #262321;
+	opacity: 0.2;
+	background: none;
+
+	
+}
+.qiinputtext{
+	position: relative;
+	top:-940px;
+	left:-140px;
+	font-family: Montserrat-Light;
+	font-size: 14px;
+	line-height: 26px;
+	letter-spacing: 0px;
+	color: #141414;
+	opacity: 0.5
+}
+.qiinputtext2{
+position: relative;
+	top:-955px;
+}
+.qiinputtext3{
+position: relative;
+	top:-960px;
+}
+.qiinput2{
+
+	text-align: auto;
+	height: 144px;
+}
+.qibutton{
+	position: relative;
+	top: -830px;
+	width: 370px;
+	height: 50px;
+	background-color: #141414;
+	border-radius: 2px;
+	border-width: 1px;
+	color: white;
+	text-align: center;
+	font-family: Montserrat-Light;
+	font-size: 12px;
+	letter-spacing: 2px;
+}
+.qicontainer2{
+	margin-left: 110px;
+
+	width: 350px;
+text-align: left;
+	
+}
+.qitext2{
+	margin-top: 30px;
+}
+.qicard{
+	margin-top: 40px;
+	width: 250px;
+	height: 40px;
+}
+.qic2t{
+	letter-spacing: 0;
+	line-height: 26px;
+}
+/*第八个界面*/
+.footer{
+background-color: black;
+height: 410px;
+color:white;
+display: flex;
+}
+.fcard{
+text-align: left;
+flex: 0 1 auto;
+padding: 100px;
+width: 150px;
+}
+.fcard2{
+	width: 300px;
+}
+.ftext1{
+	font-family: Montserrat-Light;
+	font-size: 14px;
+	line-height: 28px;
+	letter-spacing: 2px;
+	color: #ffffff;
+}
+.ftext2{
+	font-family: Montserrat-ExtraLight;
+	font-size: 16px;
+	line-height: 46px;
+	color: #ffffff;
+	opacity: 0.3;
+}
+.ftext22{
+	line-height: 26px;
+	margin-top:10px;
+	margin-bottom: 40px;
+}
