@@ -14,3 +14,6 @@ https://guyith.github.io/My-web/
 
 百度学习布局：
 [demo]https://guyith.github.io/My-web/P1.html
+
+第一个完整的网页
+[demo]https://guyith.github.io/My-web/formal-web.html
