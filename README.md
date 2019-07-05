@@ -6,7 +6,7 @@ My github page:
 ----
 https://guyith.github.io/My-web/
 
-简历第三版：
+简历第三版/添加javascript：
 [demo]https://guyith.github.io/My-web/resume.html
 
 简历提交卡片：
