@@ -21,3 +21,5 @@ https://guyith.github.io/My-web/
 一个复杂的网页
 [demo]https://guyith.github.io/My-web/complex.html
 
+Astarmaze
+[demo]https://guyith.github.io/My-web/Astarmaze/mazeAstar.html
